@@ -1,3 +1,29 @@
-.container-marketing {
-      background-color: #e40707;
+body {
+    background: url(img/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#site-header  {
+    height: 130px;
+    background-color: #e40707;
+    opacity: 85%;
+    text-transform: none;
+    color: #ffffff;
+}
+
+#site-header ul li a {
+color:#fff;}
+
+#site-header ul li a:hover {
+    text-decoration: none;
+    color:#fff;}
+
+main {
+    background: #d09950;
+    opacity: 70%;
+}
+
+footer {
 }
