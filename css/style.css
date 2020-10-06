@@ -1,12 +1,13 @@
 body {
-    background: url(img/main-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url(img/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
 }
 
 
 #site-header  {
-    height: 130px;
+    height: 170px;
     background-color: #e40707;
     opacity: 85%;
     text-transform: none;
@@ -14,15 +15,32 @@ body {
 }
 
 #site-header ul li a {
-color:#fff;}
+color:#fff;
+}
 
 #site-header ul li a:hover {
     text-decoration: none;
-    color:#fff;}
+    color:#fff;
+  }
 
 main {
+    height: 60%;
     background: #d09950;
     opacity: 70%;
+    padding-bottom: 40px;
+}
+
+.container-md p, h4, img {
+  display: inline;
+}
+
+.ranking-container {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.ranking-content {
+  padding-top: 40px;
 }
 
 footer {
