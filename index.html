@@ -4,58 +4,77 @@
 <head>
   <meta charset="utf-8">
   <title>Pet's Barn Leaderboard</title>
+  
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/business-casual.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-  <header id="site-header">
-    <ul class="nav justify-content-center nav-custom">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pet's Barn</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Activa Custom</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Activa Rewards</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Login</a>
-      </li>
-    </ul>
-  </header>
-
-  <main>
-    <h1 class="display-3 text-center text-white">Leaderboard</h1>
-    <h3 class="display-5 text-center">Monthly Ranking</h3>
-    <div class="container-fluid">
-      <div class="container-md ranking-container bg-dark">
-        <div class="container d-inline align-middle">
-          <h4>1</h4>
-          <img src="img/user-avatar.png" alt="dog-avatar">
-          <p>username</p>
-        </div>
-      </div>
-
-      <div class="container-md ranking-container bg-dark">
-        <div class="container d-inline">
-          <h4>1</h4>
-          <img src="img/user-avatar.png" alt="dog-avatar">
-          <p>username</p>
-        </div>
+  <header>
+    <div class="header .site-heading">
+      <a href="www.petsbarn.com" class="logo">
+        <img src="img/petsbarn-logo.png" alt="Pet's Barn Logo">
+      </a>
+      <div class="header-right">
+        <a class="active" href="#home">Activa Custom</a>
+        <a class="active" href="#contact">Activa Rewards</a>
+        <a class="active" href="#about">Login</a>
       </div>
     </div>
+  </header>
+
+
+  <main>
+
+    <h1 class="display-3 text-center text-white">Leaderboard</h1>
+    <h3 class="display-5 text-center">Monthly Ranking</h3>
+
+    <div class="card bg-dark">
+
+    </div>
+
+       <div class="container-md bg-dark d-flex justify-content-start">
+         <div class="col-sm user-width"> 
+            <span>
+
+            </span>
+            <img src="" alt="">
+         </div>
+         <div class="col-md progress-width">
+           <div class="progress" style="height:35px">
+             <div class="progress-bar bg-danger" style="width:20%;height:40px">
+              <p>1 Point</p>
+             </div>
+             <div class="progress-bar bg-warning" style="width:20%;height:40px">
+              <p>5 point</p>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       
+      
+
 
 
   </main>
 
+  <footer>
+    <div class="footer d-flex justify-content-center ">
+      <i class="fab fa-facebook fa-3x"></i>
+      <i class="fab fa-instagram fa-3x"></i>
+      <i class="fab fa-twitter fa-3x"></i>
+    </div>
+  </footer>
+
+
+
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+  <script src="style.js"></script>
 </body>
 
 </html>

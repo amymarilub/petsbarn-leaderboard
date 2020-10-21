@@ -1,27 +1,49 @@
 body {
-  background: url(img/main-bg.jpg);
+  color: #ffffff;
+  background-image: url(../img/main-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: #ffffff;
+}
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #e40707;
+  padding: 20px 10px;
+  opacity: 85%;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.logo img {
+  width: 300px;
+  margin-top: 20px;
 }
 
 
-#site-header  {
-    height: 170px;
-    background-color: #e40707;
-    opacity: 85%;
-    text-transform: none;
-    color: #ffffff;
+/* Style the active/current link*/
+.header a.active {
+  background-color: #f7c144;
+  border-radius: 15px;
+  color: white;
+  margin: 30px 10px;
 }
 
-#site-header ul li a {
-color:#fff;
+/* Float the link section to the right */
+.header-right {
+  float: right;
 }
-
-#site-header ul li a:hover {
-    text-decoration: none;
-    color:#fff;
-  }
 
 main {
     height: 60%;
@@ -30,18 +52,38 @@ main {
     padding-bottom: 40px;
 }
 
-.container-md p, h4, img {
-  display: inline;
-}
-
-.ranking-container {
-  height: 100px;
-  margin-bottom: 20px;
-}
-
-.ranking-content {
+main h1 {
   padding-top: 40px;
 }
 
-footer {
+.container-md {
+  height: 120px;
+  border-radius: 20px;
+  padding-top: 40px;
+  margin: 20px auto;
 }
+
+.user-width {
+  max-width: 30%;
+}
+
+.progress-width {
+  max-width: 80%;
+  padding: 0 10px 0 10px;
+}
+
+.progress-bar p {
+  font-size: 18px;
+  padding: 20px 10px 20px 10px;
+}
+
+.footer {
+height: 300px;
+
+}
+
+.footer i{
+  padding: 80px 20px;
+
+}
+
